@@ -1,0 +1,6 @@
+/home/dmitry/RiderProjects/Labs/Lab4/Lab4/bin/Debug/Lab4.exe
+/home/dmitry/RiderProjects/Labs/Lab4/Lab4/bin/Debug/Lab4.pdb
+/home/dmitry/RiderProjects/Labs/Lab4/Lab4/obj/Debug/Lab4.csprojAssemblyReference.cache
+/home/dmitry/RiderProjects/Labs/Lab4/Lab4/obj/Debug/Lab4.csproj.CoreCompileInputs.cache
+/home/dmitry/RiderProjects/Labs/Lab4/Lab4/obj/Debug/Lab4.exe
+/home/dmitry/RiderProjects/Labs/Lab4/Lab4/obj/Debug/Lab4.pdb

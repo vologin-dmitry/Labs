@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e4d9e92-67f2-4906-b1bc-e94403c37f04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Exponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Function.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Lab4.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/PolynomialFirstDegree.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/PolynomialZeroDegree.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Worker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/bin/Debug/Lab4.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/.idea.Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/.idea.Lab2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Lab4/Function.cs" />
+        <option value="$PROJECT_DIR$/Lab4/PolynomialFirstDegree.cs" />
+        <option value="$PROJECT_DIR$/Lab4/PolynomialZeroDegree.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Exponenr.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Exponent.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Worker.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l97jgmKRcY7FjMmag0pjhmLWu3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34996718" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30006567" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Lab4" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab4/Lab4.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e4d9e92-67f2-4906-b1bc-e94403c37f04" name="Default Changelist" comment="" />
+      <created>1607070969660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607070969660</updated>
+      <workItem from="1607070997963" duration="7102000" />
+      <workItem from="1607081704898" duration="1419000" />
+      <workItem from="1607084872513" duration="2170000" />
+      <workItem from="1607090415608" duration="2209000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1554" height="227" key="GridCell.Tab.0.bottom" timestamp="1607082862545">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="227" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1607082862545" />
+    <state width="1554" height="227" key="GridCell.Tab.0.center" timestamp="1607082862544">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="227" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1607082862544" />
+    <state width="1554" height="227" key="GridCell.Tab.0.left" timestamp="1607082862543">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="227" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1607082862543" />
+    <state width="1554" height="227" key="GridCell.Tab.0.right" timestamp="1607082862545">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="227" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1607082862545" />
+    <state width="1554" height="309" key="GridCell.Tab.1.bottom" timestamp="1607082173731">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.1.bottom/0.0.1600.900@0.0.1600.900" timestamp="1607082173731" />
+    <state width="1554" height="309" key="GridCell.Tab.1.center" timestamp="1607082173730">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.1.center/0.0.1600.900@0.0.1600.900" timestamp="1607082173730" />
+    <state width="1554" height="309" key="GridCell.Tab.1.left" timestamp="1607082173729">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.1.left/0.0.1600.900@0.0.1600.900" timestamp="1607082173729" />
+    <state width="1554" height="309" key="GridCell.Tab.1.right" timestamp="1607082173730">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.1.right/0.0.1600.900@0.0.1600.900" timestamp="1607082173730" />
+    <state width="1554" height="309" key="GridCell.Tab.2.bottom" timestamp="1607082173732">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.2.bottom/0.0.1600.900@0.0.1600.900" timestamp="1607082173732" />
+    <state width="1554" height="309" key="GridCell.Tab.2.center" timestamp="1607082173731">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.2.center/0.0.1600.900@0.0.1600.900" timestamp="1607082173731" />
+    <state width="1554" height="309" key="GridCell.Tab.2.left" timestamp="1607082173731">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.2.left/0.0.1600.900@0.0.1600.900" timestamp="1607082173731" />
+    <state width="1554" height="309" key="GridCell.Tab.2.right" timestamp="1607082173732">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.2.right/0.0.1600.900@0.0.1600.900" timestamp="1607082173732" />
+    <state width="1554" height="309" key="GridCell.Tab.3.bottom" timestamp="1607082173734">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.3.bottom/0.0.1600.900@0.0.1600.900" timestamp="1607082173734" />
+    <state width="1554" height="309" key="GridCell.Tab.3.center" timestamp="1607082173733">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.3.center/0.0.1600.900@0.0.1600.900" timestamp="1607082173733" />
+    <state width="1554" height="309" key="GridCell.Tab.3.left" timestamp="1607082173732">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.3.left/0.0.1600.900@0.0.1600.900" timestamp="1607082173732" />
+    <state width="1554" height="309" key="GridCell.Tab.3.right" timestamp="1607082173733">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="309" key="GridCell.Tab.3.right/0.0.1600.900@0.0.1600.900" timestamp="1607082173733" />
+    <state x="628" y="73" width="336" height="749" key="RiderGenerateDialog" timestamp="1607093164596">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="628" y="73" width="336" height="749" key="RiderGenerateDialog/0.0.1600.900@0.0.1600.900" timestamp="1607093164596" />
+    <state x="463" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1607077504145">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="463" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1607077504145" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="y" language="C#" />
+        <watch expression="integralForCheck" language="C#" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

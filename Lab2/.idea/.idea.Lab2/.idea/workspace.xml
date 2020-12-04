@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1275ab3a-8d2e-4743-bdc6-21980c10b05b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab2/Function.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/Worker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///home/dmitry/RiderProjects/Labs/Lab2/Lab2/Worker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab2/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,8 +97,16 @@
       <workItem from="1606808600031" duration="110000" />
       <workItem from="1606808822501" duration="8227000" />
       <workItem from="1606821089117" duration="37000" />
-      <workItem from="1606821218099" duration="5109000" />
+      <workItem from="1606821218099" duration="6387000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab2">
+      <created>1606869906635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606869906663</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="698" y="358" width="188" height="173" key="#Custom_Plugin_Repositories" timestamp="1606808646442">
@@ -138,26 +148,26 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="100" y="100" width="1402" height="701" key="DiffContextDialog/0.0.1600.900@0.0.1600.900" timestamp="1606822886489" />
-    <state x="583" y="194" width="426" height="507" key="FileChooserDialogImpl" timestamp="1606817140776">
+    <state x="583" y="194" width="426" height="507" key="FileChooserDialogImpl" timestamp="1606870668992">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="583" y="194" width="426" height="507" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1606817140776" />
-    <state width="1554" height="227" key="GridCell.Tab.0.bottom" timestamp="1606825125465">
+    <state x="583" y="194" width="426" height="507" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1606870668992" />
+    <state width="1554" height="227" key="GridCell.Tab.0.bottom" timestamp="1606870905035">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="227" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1606825125465" />
-    <state width="1554" height="227" key="GridCell.Tab.0.center" timestamp="1606825125465">
+    <state width="1554" height="227" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1606870905035" />
+    <state width="1554" height="227" key="GridCell.Tab.0.center" timestamp="1606870905034">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="227" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1606825125465" />
-    <state width="1554" height="227" key="GridCell.Tab.0.left" timestamp="1606825125464">
+    <state width="1554" height="227" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1606870905034" />
+    <state width="1554" height="227" key="GridCell.Tab.0.left" timestamp="1606870905034">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="227" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1606825125464" />
-    <state width="1554" height="227" key="GridCell.Tab.0.right" timestamp="1606825125465">
+    <state width="1554" height="227" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1606870905034" />
+    <state width="1554" height="227" key="GridCell.Tab.0.right" timestamp="1606870905035">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="227" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1606825125465" />
+    <state width="1554" height="227" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1606870905035" />
     <state width="1554" height="317" key="GridCell.Tab.1.bottom" timestamp="1606817324198">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -210,6 +220,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="304" y="85" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1606808267625" />
+    <state x="395" y="186" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1606870592829">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="395" y="186" width="802" height="523" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1606870592829" />
     <state x="464" y="209" key="run.anything.popup" timestamp="1606823698645">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
