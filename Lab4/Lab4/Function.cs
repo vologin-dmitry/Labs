@@ -1,11 +1,11 @@
 namespace Lab4
 {
-    public interface Function
+    public interface IFunction
     {
-        double countFunction(double data);
-        double countIntegral(double data);
-        double countDerivative(double data);
-        double countSecondDerivative(double data);
-        double countFourthDerivative(double data);
+        double CountFunction(double data);
+        double CountIntegral(double data);
+        double CountDerivative(double data);
+        double CountSecondDerivative(double data);
+        double CountFourthDerivative(double data);
     }
 }

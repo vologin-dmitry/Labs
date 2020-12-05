@@ -12,9 +12,9 @@ namespace Lab4
         private double p;
         private double w;
         private double integralForCheck;
-        private Function function;
+        private IFunction function;
 
-        public Worker(double A, double B, int m, Function function)
+        public Worker(double A, double B, int m, IFunction function)
         {
             var h = (B - A) / m;
             this.m = m;
@@ -24,37 +24,42 @@ namespace Lab4
             this.function = function;
             for (var i = 1; i < m; ++i)
             {
-                y += function.countFunction(A + h * i);
+                y += function.CountFunction(A + h * i);
             }
 
             for (var i = 0; i <= m - 1; ++i)
             {
-                p += function.countFunction(A + h * i + h / 2);
+                p += function.CountFunction(A + h * i + h / 2);
             }
-            integralForCheck = function.countIntegral(B) - function.countIntegral(A);
-            w = (function.countFunction(A) + function.countFunction(B));
+            integralForCheck = function.CountIntegral(B) - function.CountIntegral(A);
+            w = (function.CountFunction(A) + function.CountFunction(B));
         }
 
         public void LeftRectangles()
         {
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("Метод левых прямоугольников");
-            var integral = h * (function.countFunction(A) + y);
+            Console.ResetColor();
+            var integral = h * (function.CountFunction(A) + y);
             Console.WriteLine("Интеграл равен " + integral);
             Console.WriteLine("Погрешность: " + Math.Abs(integral - integralForCheck));
         }
         
         public void RightRectangles()
         {
-        
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("Метод правых прямоугольников");
-            var integral = h * (y + function.countFunction(B));
+            Console.ResetColor();
+            var integral = h * (y + function.CountFunction(B));
             Console.WriteLine("Интеграл равен " + integral);
             Console.WriteLine("Погрешность: " + Math.Abs(integral - integralForCheck));
         }
 
         public void MiddleRectangles()
         {
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("Метод средних прямоугольников");
+            Console.ResetColor();
             var integral = h * p;
             Console.WriteLine("Интеграл равен " + integral);
             Console.WriteLine("Погрешность: " + Math.Abs(integral - integralForCheck));
@@ -62,7 +67,9 @@ namespace Lab4
         
         public void Trapezes()
         {
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("Метод трапеций");
+            Console.ResetColor();
             var integral = h * (w / 2 + y);
             Console.WriteLine("Интеграл равен " + integral);
             Console.WriteLine("Погрешность: " + Math.Abs(integral - integralForCheck));
@@ -70,7 +77,9 @@ namespace Lab4
 
         public void Simpson()
         {
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("Метод Симпсона");
+            Console.ResetColor();
             double integral = h * (p * 2.0 / 3 + w * 1.0 / 6 + y * 1.0 / 3);
             Console.WriteLine("Интеграл равен " + integral);
             Console.WriteLine("Погрешность: " + Math.Abs(integral - integralForCheck));
@@ -98,7 +107,7 @@ namespace Lab4
         public void IntegralAndTheoreticalPrecision()
         {
             LeftRectangles();
-            var temp = TheoreticalPrecision(0.5, 0, function.countDerivative(B));
+            var temp = TheoreticalPrecision(0.5, 0, function.CountDerivative(B));
             Console.WriteLine("Теоретическая погрешность: " + temp);
             Console.WriteLine();
             
@@ -107,16 +116,15 @@ namespace Lab4
             Console.WriteLine();
             
             MiddleRectangles();
-            Console.WriteLine("Теоретическая погрешность: " + TheoreticalPrecision(1.0 / 24, 1, function.countSecondDerivative(B)));
+            Console.WriteLine("Теоретическая погрешность: " + TheoreticalPrecision(1.0 / 24, 1, function.CountSecondDerivative(B)));
             Console.WriteLine();
             
             Trapezes();
-            Console.WriteLine("Теоретическая погрешность: " + TheoreticalPrecision(1.0 / 12, 1, function.countSecondDerivative(B)));
+            Console.WriteLine("Теоретическая погрешность: " + TheoreticalPrecision(1.0 / 12, 1, function.CountSecondDerivative(B)));
             Console.WriteLine();
             
             Simpson();
-            MiddleRectangles();
-            Console.WriteLine("Теоретическая погрешность: " + TheoreticalPrecision(1.0 / 2880, 3, function.countFourthDerivative(B)));
+            Console.WriteLine("Теоретическая погрешность: " + TheoreticalPrecision(1.0 / 2880, 3, function.CountFourthDerivative(B)));
         }
         
     }

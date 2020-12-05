@@ -9,6 +9,7 @@
         <e p="Function.cs" t="Include" />
         <e p="Lab4.csproj" t="IncludeRecursive" />
         <e p="PolynomialFirstDegree.cs" t="Include" />
+        <e p="PolynomialThirdDegree.cs" t="Include" />
         <e p="PolynomialZeroDegree.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">

@@ -1,15 +1,15 @@
 namespace Lab4
 {
-    public class PolynomialZeroDegree : Function
+    public class PolynomialZeroDegree : IFunction
     {
-        public double countFunction(double data) => -3.5;
+        public double CountFunction(double data) => -3.5;
 
-        public double countIntegral(double data) => data * -3.5;
+        public double CountIntegral(double data) => data * -3.5;
 
-        public double countDerivative(double data) => 0;
+        public double CountDerivative(double data) => 0;
         
-        public double countSecondDerivative(double data) => 0;
+        public double CountSecondDerivative(double data) => 0;
 
-        public double countFourthDerivative(double data) => 0;
+        public double CountFourthDerivative(double data) => 0;
     }
 }

@@ -41,6 +41,7 @@
         <Compile Include="Exponent.cs" />
         <Compile Include="Function.cs" />
         <Compile Include="PolynomialFirstDegree.cs" />
+        <Compile Include="PolynomialThirdDegree.cs" />
         <Compile Include="PolynomialZeroDegree.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
