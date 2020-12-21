@@ -101,7 +101,7 @@ namespace Lab4
 
         public double TheoreticalPrecision(double c, int d, double max)
         {
-            return c * (B - A) * Math.Pow(B - A / m, d + 1) * max;
+            return c * (B - A) * Math.Pow((B - A) / m, d + 1) * max;
         }
 
         public void IntegralAndTheoreticalPrecision()

@@ -8,7 +8,8 @@ namespace Lab4
         public static void Main(string[] args)
         {
             Console.WriteLine(
-                "Лабораторная работа №4. Приближённое вычисление интеграла по составным квадратурным формулам");
+                "Лабораторная работа №4. Приближённое вычисление интеграла по составным квадратурным формулам\n" +
+                "Варинат 2");
             Console.WriteLine("Функции:");
             Console.WriteLine("f(x) = -3.5");
             Console.WriteLine("f(x) = 2.5x - 4");
