@@ -112,7 +112,7 @@ namespace Lab3
             Console.WriteLine("Второй метод");
             ModifiedSort(F);
             PrintTable();
-            var result = BisectionMethod(a, b, eps, F);
+            var result = BisectionMethod(a, b, eps, F, n);
             Console.WriteLine("Значение x: " + result);
             Console.WriteLine("Погрешность: " + Math.Abs(Function.CountFunction(result) - F));
         }
@@ -135,13 +135,13 @@ namespace Lab3
             SortTable(c);
         }
         
-        private double BisectionMethod(double a, double b, double eps, double F)
+        private double BisectionMethod(double a, double b, double eps, double F, int n)
         {
             int steps = 0;
             do
             {
                 double c = (a + b) / 2;
-                if ((Function.CountFunction(a) - F) * (Function.CountFunction(c) - F) <= 0)
+                if ((Lagrange(a, n) - F) * (Lagrange(c, n) - F) <= 0)
                     b = c;
                 else a = c;
                 ++steps;

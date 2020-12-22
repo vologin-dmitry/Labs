@@ -10,7 +10,8 @@ namespace Lab3
                 "Лабораторная работа №3. Задача обратного интерполирования");
             Console.WriteLine(
                 "Функция: Ln(1 + x)");
-            Console.WriteLine("Проверочные данные: A = 0;\n B = 1;\nm = 10;\n eps = 10^(-8)");
+            Console.WriteLine("Вариант 2");
+            Console.WriteLine("Проверочные данные: A = 0;\nB = 1;\nm = 10;\neps = 10^(-8)");
 
             var repeat = true;
             Console.WriteLine("Введите A");
@@ -47,6 +48,7 @@ namespace Lab3
                 Console.WriteLine("Введите эпсилон");
                 var eps = Convert.ToDouble(Console.ReadLine());
                 worker.FirstMethod(F, n);
+                Console.WriteLine();
                 new Worker(a, b, m).SecondMethod(F, n, eps);
                 Console.WriteLine("\n");
                 Console.WriteLine(
