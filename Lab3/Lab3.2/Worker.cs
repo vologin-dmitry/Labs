@@ -52,7 +52,7 @@ namespace Lab3._2
         {
             var temp = FirstDerivativeBegin(xValues[0]);
             firstDerivatives.Add(temp);
-            firstDerivativesPrecision.Add(Math.Abs(temp - Function.CountDerivative(xValues[0])));
+            firstDerivativesPrecision.Add(Math.Abs(temp - Function.CountDerivative(xValues[0])) / Function.CountDerivative(xValues[0]));
 
             secondDerivatives.Add(0);
             secondDerivativesPrecision.Add(0);
@@ -61,16 +61,16 @@ namespace Lab3._2
             {
                 temp = FirstDerivative(xValues[i]);
                 firstDerivatives.Add(temp);
-                firstDerivativesPrecision.Add(Math.Abs(temp - Function.CountDerivative(xValues[i])));
+                firstDerivativesPrecision.Add(Math.Abs((temp - Function.CountDerivative(xValues[i])) / Function.CountDerivative(xValues[i])));
 
                 secondDerivatives.Add(SecondDerivative(xValues[i]));
-                secondDerivativesPrecision.Add(Math.Abs(SecondDerivative(xValues[i]) -
-                                                        Function.CountSecondDerivative(xValues[i])));
+                secondDerivativesPrecision.Add(Math.Abs((SecondDerivative(xValues[i]) -
+                                                        Function.CountSecondDerivative(xValues[i])) / Function.CountSecondDerivative(xValues[i])));
             }
 
             temp = FirstDerivativeEnd(xValues[xValues.Count - 1]);
             firstDerivatives.Add(temp);
-            firstDerivativesPrecision.Add(Math.Abs(temp - Function.CountDerivative(xValues[xValues.Count - 1])));
+            firstDerivativesPrecision.Add((Math.Abs(temp - Function.CountDerivative(xValues[xValues.Count - 1])) / Function.CountDerivative(xValues[xValues.Count - 1])));
 
             secondDerivatives.Add(0);
             secondDerivativesPrecision.Add(0);
