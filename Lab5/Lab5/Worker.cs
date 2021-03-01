@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using static System.Console;
 using static Lab5.Functions;
 
@@ -96,7 +94,8 @@ namespace Lab5
 
             var gaussLike = A1 * F_First(x1) + A2 * F_First(x2);
             WriteLine("Интеграл по формуле типа Гаусса: " + gaussLike);
-            WriteLine("Погрешность: " + Math.Abs(gaussLike - Simpson()));
+            WriteLine("Погрешность с симпсоном: " + Math.Abs(gaussLike - Simpson()));
+            WriteLine("Погрешность при А=0 В=1:" + Math.Abs(gaussLike - 0.4065383082972653));
         }
         
         private double Simpson()
@@ -119,7 +118,8 @@ namespace Lab5
             }
             WriteLine("Значение интеграла по симпсону = " + Simpson());
             WriteLine("Значение интеграла по формуле Гауса = " + integral);
-            WriteLine("Погрешность = " + (Math.Abs(integral - Simpson())));
+            WriteLine("Погрешность с симпсоном = " + (Math.Abs(integral - Simpson())));
+            WriteLine("Погрешность при А=0 В=1 = " + (Math.Abs(integral - 0.4065383082972653)));
         }
 
         public void Mehler(int N)
@@ -136,9 +136,46 @@ namespace Lab5
 
             result *= constant;
             WriteLine("Значение интеграла вычисленное с помощью КФ Меллера = " +result);
-            Write("Погрешность = " + Math.Abs(result - 1.201969715061311 * 2));
+            WriteLine("Погрешность = " + Math.Abs(result - 1.201969715061311 * 2));
         }
 
         private bool IsEqual(double x1, double x2) => (x1 - x2) < 0.000000001;
+        
+        public double Simpson2()
+        {
+            double result_1 = 0.0;
+            double result_2 = 0.0;
+            double result_3 = 0.0;
+            double h_2 = h / 2.0;
+            double x_k;
+            for (int i = 0; i <= 2 * m; i++) 
+            { 
+                x_k = A + i * h_2; 
+                if (i == 0 || i == (2 * m)) 
+                { 
+                    result_1 += Func_First(x_k); 
+                } 
+                if ((i != 0) && (i != 2 * m) && (i % 2 == 1)) 
+                { 
+                    result_2 += 4 * Func_First(x_k); 
+                } 
+                if ((i != 0) && (i != 2 * m) && (i % 2 == 0)) 
+                { 
+                    result_3 += 2 * Func_First(x_k); 
+                } 
+            } 
+            return (result_1 + result_2 + result_3) * h_2 / 3.0;
+        }
+        
+        double CountMomentWithMiddleRectangles2(int k)
+        {
+            double result = 0.0;
+            for (int i = 1; i <= m; i++)
+            {
+                result += h * MomentsHelper(A + h / 2.0 + (i - 1) * h, k);
+            }
+            return result;
+        }
+        
     }
 }
