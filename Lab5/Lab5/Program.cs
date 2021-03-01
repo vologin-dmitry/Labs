@@ -40,7 +40,7 @@ public static void Main(string[] args)
                 WriteLine();
                 worker.Mehler(N);
                 
-                WriteLine("Введите 1, чтобы продолжить или 0, чтобы выйти");
+                WriteLine("\nВведите 1, чтобы продолжить или 0, чтобы выйти");
                 repeat = (1 == Convert.ToInt32(ReadLine()));
             }
         }

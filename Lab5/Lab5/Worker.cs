@@ -82,20 +82,31 @@ namespace Lab5
             A1 = 1 / (x1 - x2) * (moment1 - x2 * moment0);
             A2 = 1 / (x2 - x1) * (moment1 - x1 * moment0);
             WriteLine("Ортогональный многочлен: x^2 - (" + (x1 + x2) + ")*x + " + x1 * x2);
-            WriteLine("Узел x1 = " + x1);
-            WriteLine("Узел x2 = " + x2);
-            WriteLine("Коэффициент A1 = " + A1);
-            WriteLine("Коэффициент A2 = " + A2);
+            WriteLine("Узел x1: " + x1);
+            WriteLine("Узел x2: " + x2);
+            WriteLine("Коэффициент A1: " + A1);
+            WriteLine("Коэффициент A2: " + A2);
 
+            ForegroundColor = ConsoleColor.Yellow;
+            Write("[проверка] ");
+            ResetColor();
             WriteLine(!IsEqual(x1, x2) ? "Узлы x1 и x2 различны" : "Узлы x1 и x2 совпадают");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write("[проверка] ");
+            ResetColor();
             WriteLine(
                 IsEqual(A1 + A2, moment0) ? "A1 + A2 равно нулевому моменту" : "А1 + А2 не равно нулевому моменту");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write("[проверка] ");
+            ResetColor();
             WriteLine(A1 >= 0 && A2 >= 0 ? "A1 и А2 больше или равны нулю" : "А1 или А2 меньше нуля");
 
             var gaussLike = A1 * F_First(x1) + A2 * F_First(x2);
+            ForegroundColor = ConsoleColor.Red;
             WriteLine("Интеграл по формуле типа Гаусса: " + gaussLike);
-            WriteLine("Погрешность с симпсоном: " + Math.Abs(gaussLike - Simpson()));
-            WriteLine("Погрешность при А=0 В=1:" + Math.Abs(gaussLike - 0.4065383082972653));
+            ResetColor();
+            WriteLine("Погрешность с формулой Cимпсона: " + Math.Abs(gaussLike - Simpson()));
+            WriteLine("Погрешность при А=0 В=1: " + Math.Abs(gaussLike - 0.4065383082972653));
         }
         
         private double Simpson()
@@ -116,10 +127,12 @@ namespace Lab5
 
                 Zk += h;
             }
-            WriteLine("Значение интеграла по симпсону = " + Simpson());
-            WriteLine("Значение интеграла по формуле Гауса = " + integral);
-            WriteLine("Погрешность с симпсоном = " + (Math.Abs(integral - Simpson())));
-            WriteLine("Погрешность при А=0 В=1 = " + (Math.Abs(integral - 0.4065383082972653)));
+            WriteLine("Значение интеграла по Cимпсону: " + Simpson());
+            ForegroundColor = ConsoleColor.Red;
+            WriteLine("Значение интеграла по формуле Гауса: " + integral);
+            ResetColor();
+            WriteLine("Погрешность с формулой Cимпсона: " + (Math.Abs(integral - Simpson())));
+            WriteLine("Погрешность при А=0 В=1: " + (Math.Abs(integral - 0.4065383082972653)));
         }
 
         public void Mehler(int N)
@@ -131,11 +144,13 @@ namespace Lab5
                 double x = Math.Cos(((double)(2.0 * i - 1.0) /( 2.0 * N)) * Math.PI);
                 WriteLine("Узел " + i + " = " + x);
                 result += F_Second(x);
-                WriteLine("Коэфициент" + i + " = " +constant * F_Second(x));
+                WriteLine("Коэфициент " + i + " = " + constant * F_Second(x));
             }
 
             result *= constant;
+            ForegroundColor = ConsoleColor.Red;
             WriteLine("Значение интеграла вычисленное с помощью КФ Меллера = " +result);
+            ResetColor();
             WriteLine("Погрешность = " + Math.Abs(result - 1.201969715061311 * 2));
         }
 
